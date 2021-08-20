@@ -9,7 +9,7 @@ import { homeStyles } from "./styles";
 /**
  * Main page of the application, displaying a header, form for job searching, and data table with the results.
  */
-class Home extends React.Component {
+class Homes extends React.Component {
   state = {
     loading: false,
     jobList: [],
@@ -153,8 +153,8 @@ class Home extends React.Component {
   }
 }
 
-Home.propTypes = {
+Homes.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(homeStyles)(Home);
+export default withStyles(homeStyles)(Homes);
